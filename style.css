@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative; /* Menggunakan position relative untuk positioning tombol hapus semua */
+  }
+  
+  .chat-input {
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 300px;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .chat-output {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .output-message {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .delete-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute; /* Menggunakan position absolute untuk memposisikan tombol hapus semua */
+    top: 10px; /* Atur posisi vertikal dari tombol hapus semua */
+    right: 20px; /* Atur posisi horizontal dari tombol hapus semua */
+  }
+  
+  .delete-button img {
+    width: 20px;
+    height: 20px;
+  }
+  
